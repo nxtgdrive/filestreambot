@@ -1,4 +1,4 @@
-# (c) adarsh-goel
+# (c) Shinigami ki sampatti
 
 
 import time
