@@ -55,7 +55,7 @@ async def start(b, m):
         except UserNotParticipant:
              await StreamBot.send_photo(
                 chat_id=m.chat.id,
-                photo="https://telegra.ph/file/bb0d2a42531afe19f41d4.jpg",
+                photo="https://te.legra.ph/file/805559d5901e5001d12dd.jpg",
                 caption="<i>𝙹𝙾𝙸𝙽 CHANNEL 𝚃𝙾 𝚄𝚂𝙴 𝙼𝙴🔐</i>",
                 reply_markup=InlineKeyboardMarkup(
                     [
@@ -70,14 +70,14 @@ async def start(b, m):
         except Exception:
             await b.send_message(
                 chat_id=m.chat.id,
-                text="<i>Something Went Wrong</i> <b> <a href='https://t.me/Syrus_143_hpy'>CLICK AND COMPLAINT HIS OWNER</a></b>",
+                text="<i>Something Went Wrong</i> <b> <a href='https://t.me/Bae_wafaaa'>CLICK AND COMPLAINT HIS OWNER</a></b>",
                 
                 disable_web_page_preview=True)
             return
     await StreamBot.send_photo(
         chat_id=m.chat.id,
-        photo ="https://telegra.ph/file/bb0d2a42531afe19f41d4.jpg",
-        caption =f'Hi {m.from_user.mention(style="md")}!,\nI am Telegram File to Link Generator Bot with Channel support.\nSend me any file and get a direct download link and streamable link.!',
+        photo ="https://te.legra.ph/file/6750eaff7ac29676dbb31.jpg",
+        caption =f'Hi {m.from_user.mention(style="md")}👋 ,\nI am Telegram File To Link Bot with Channel support.\nTʜɪs Pᴇʀᴍᴇᴀɴᴛ Lɪɴᴋ Wɪᴛʜ Fᴀsᴛᴇsᴛ Sᴘᴇᴇᴅ\n🔸 𝗪𝗔𝗥𝗡𝗜𝗡𝗚 🚸\n🔞 Pʀᴏɴ ᴄᴏɴᴛᴇɴᴛꜱ ʟᴇᴀᴅꜱ ᴛᴏ ᴘᴇʀᴍᴀɴᴇɴᴛ ʙᴀɴ ʏᴏᴜ.\nSend me any file and get a direct download link and streamable link.!',
         reply_markup=buttonz)
 
 
@@ -103,7 +103,7 @@ async def help_handler(bot, message):
         except UserNotParticipant:
             await StreamBot.send_photo(
                 chat_id=message.chat.id,
-                photo="https://telegra.ph/file/bb0d2a42531afe19f41d4.jpg",
+                photo="https://te.legra.ph/file/3a7fc0b502d18805631cb.jpg",
                 Caption="**𝙹𝙾𝙸𝙽 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿 𝚃𝙾 𝚄𝚂𝙴 ᴛʜɪs Bᴏᴛ!**\n\n__Dᴜᴇ ᴛᴏ Oᴠᴇʀʟᴏᴀᴅ, Oɴʟʏ Cʜᴀɴɴᴇʟ Sᴜʙsᴄʀɪʙᴇʀs ᴄᴀɴ ᴜsᴇ ᴛʜᴇ Bᴏᴛ!__",
                 reply_markup=InlineKeyboardMarkup(
                     [
@@ -118,7 +118,7 @@ async def help_handler(bot, message):
         except Exception:
             await bot.send_message(
                 chat_id=message.chat.id,
-                text="__Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ__ [亗 𝗧𝗛𝗘 𝗦𝗔𝗡𝗗𝗠𝗔𝗡 ⚡](https://t.me/syrus_143_hpy).",
+                text="__Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ__ [ᗪᥙɗᥙ ᥫ᭡ ](https://t.me/Bae_wafaaa).",
                 disable_web_page_preview=True)
             return
     await message.reply_text(
@@ -128,8 +128,8 @@ async def help_handler(bot, message):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("Love/Owner ❤", url="https://t.me/syrus_143_hpy")],
-                [InlineKeyboardButton("Backup Channel 😉", url="https://t.me/FILMY_MEN_2")]
+                [InlineKeyboardButton("⚡️AK Imax 2.0⚡️", url="https://t.me/akimax")],
+                [InlineKeyboardButton("⚡️AK IMAX HUB⚡️", url="https://t.me/akimaxmovies")]
             ]
         )
     )
