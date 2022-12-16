@@ -17,12 +17,12 @@ async def maintainers(b,m):
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="My Lobe/Owner ❤️ [亗 𝗧𝗛𝗘 𝗦𝗔𝗡𝗡𝗗𝗔𝗡 ⚡](https://t.me/syrus_143_hpy)",
+                    text="𝐌𝐚𝐝𝐞 𝐖𝐢𝐭𝐡 ❤️ 𝐁𝐲  [ᗪᥙɗᥙ ᥫ᭡ ](https://t.me/Bae_wafaaa)",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Love/Owner ", url=f"https://t.me/syrus_143_hpy")
+                                InlineKeyboardButton("🍥 Contact 🍥 ", url=f"https://t.me/Bae_wafaaa")
                             ]
                         ]
                     ),
@@ -37,12 +37,12 @@ async def follow_user(b,m):
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="<B>Here's [My Love Channel ❤️](https://t.me/Filmy_Men)</B>",
+                    text="<B>Here's [⚡️AK IMAX HUB⚡️](https://t.me/akimaxmovies)</B>",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Backup Channel ❤️", url=f"https://t.me/FILMY_MEN_2")
+                                InlineKeyboardButton("⚡️AK IMAX HUB⚡️", url=f"https://t.me/akimaxmovies")
                             ]
                         ]
                     ),
@@ -76,7 +76,7 @@ async def ping(b, m):
     ag = await m.reply_text("....")
     end_t = time.time()
     time_taken_s = (end_t - start_t) * 1000
-    await ag.edit(f"Lobe❤️!\n{time_taken_s:.3f} ms")
+    await ag.edit(f"⚡️AK Imax⚡️!\n🧡ʝσιи ꨄ ѕнαяє ꨄ ѕυρρσят 💚\n{time_taken_s:.3f} ms")
     
     
     
