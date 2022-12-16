@@ -76,7 +76,7 @@ async def ping(b, m):
     ag = await m.reply_text("....")
     end_t = time.time()
     time_taken_s = (end_t - start_t) * 1000
-    await ag.edit(f"Pong!!\n{time_taken_s:.3f} ms\n\n\✪ [⚡️AK Imax⚡️](https://t.me/akimaxmovies) ✪\n...🧡ʝσιи ꨄ ѕнαяє ꨄ ѕυρρσят 💚...\n\n━━━━━━━━━━━━━━━━━━━━━━━━")
+    await ag.edit(f"⚡️Pong!!\n{time_taken_s:.3f} ms\n\n\✪ [⚡️AK Imax⚡️](https://t.me/akimaxmovies) ✪\n...🧡ʝσιи ꨄ ѕнαяє ꨄ ѕυρρσят 💚...\n\n━━━━━━━━━━━━━━━━━━━━━━━━")
     
     
     
