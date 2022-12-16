@@ -31,10 +31,22 @@
 </p>
 
 
+
+
+## 🔥 Deploy To Koyeb 🔥:</b></summary>
+<p>
+                 
+<a target="/blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/Shinigamiitg/filestreambot-pro&branch=main&name=filestreambot" >
+  <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="Deploy">
+
+
 ## ♢ How to make your own :
 
 
+
 #### ♢ Click on This Drop-down and get more details
+
+
 <br>
 <details>
   <summary><b>Deploy on Heroku:</b></summary>
@@ -55,6 +67,7 @@ Either you could locally host or deploy on [Heroku](https://heroku.com)
 
 
 then goto the <a href="#mandatory-vars">variables tab</a> for more info on setting up environmental variables. </details>
+
 
 <details>
   <summary><b>Features:</b></summary>
