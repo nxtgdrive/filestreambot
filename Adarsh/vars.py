@@ -35,6 +35,6 @@ class Var(object):
         URL = "https://{}/".format(FQDN)
     else:
         URL = "http://{}/".format(FQDN)
-    DATABASE_URL = str(getenv('DATABASE_URL', ' postgres://wbnbfcqn:02VPtEWump_E3ok0wUSQLOugkf9TmhbD@peanut.db.elephantsql.com/wbnbfcqn'))
+    DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://dudu:Y50405ej14i9c626U18@cluster0.ydafqqh.mongodb.net/?retryWrites=true&w=majority'))
     UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', None))
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1001362659779")).split())) 
