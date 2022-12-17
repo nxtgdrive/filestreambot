@@ -123,17 +123,16 @@ async def help_handler(bot, message):
             return
     await message.reply_text(
         text= """<b>
-「✨ HELP MENU ✨」\n
-\n
-「 👋 HI 」\n
-「⚡️ AK-IMAX | FILE TO LINK BOT ⚡️」\n
-\n
- ★ Send me any file or video i will give you streamable link and download link.\n
- ★ 🤖 SEND /list TO KNOW ALL COMMANDS\n
-\n
+╔━━━━━━━━━━━━━━━━╗
+ [⚡️AK-IMAX | FILE TO LINK BOT ⚡️](https://t.me/Akimax_file_to_link_bot)
+╚━━━━━━━━━━━━━━━━╝\n
+✨ HELP MENU ✨\n 
+ ★ Send me any file or video i will give you streamable link and download link.
+ ★ 🤖 SEND /list TO KNOW ALL COMMANDS
+
 「📝 IMPORTANT NOTE 📝」\n
-★ I also support Channels, add me to you Channel and send any media files and see miracle✨.\n
-★ If the bot dosen't respond to telegram files you forward, first check /start and confirm bot is alive. .\n
+★ I also support Channels, add me to you Channel and send any media files and see miracle✨.
+★ If the bot dosen't respond to telegram files you forward, first check /start and confirm bot is alive. .
 \n
 「 🚸 [⚡️Ak-imax⚡️ ](https://t.me/akimaxmovies) 🚸 」""",
         
