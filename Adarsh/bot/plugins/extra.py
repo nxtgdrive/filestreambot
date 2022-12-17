@@ -109,7 +109,7 @@ async def stats(bot, update):
              f'<b>│</b>\n' \
              f'<b>├  🗄 CPU :</b> {cpuUsage}% ' \
              f'<b>├  🎮 RAM :</b> {memory}% ' \
-             f'<b>├  💽 DISK : </b> {disk}%' \
+             f'<b>├  💽 DISK :</b> {disk}%' \
              f'<b>│</b>\n' \
              f'<b>╰──「 🚸 [⚡️Ak-imax⚡️ ](https://t.me/akimaxmovies) 🚸 」'
   await update.reply_text(botstats)
