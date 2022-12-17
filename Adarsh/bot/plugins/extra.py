@@ -10,19 +10,23 @@ from Adarsh import StartTime
 START_TEXT = """ Your Telegram DC Is : `{}`  """
 
 
-@StreamBot.on_message(filters.regex("maintainers😎"))
+@StreamBot.on_message(filters.regex("Developer🍁"))
 async def maintainers(b,m):
     try:
        await b.send_message(chat_id=m.chat.id,text="Radhe Radhe ❤️",quote=True)
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="𝐌𝐚𝐝𝐞 𝐖𝐢𝐭𝐡 ❤️ 𝐁𝐲  [ᗪᥙɗᥙ ᥫ᭡ ](https://t.me/Bae_wafaaa)",
+                    text="""Welcome !!.
+                    
+                    IF you might had difficulty , with links before , we are here to solve it :-) .
+                    
+                    For further information and guidance contact my [Developer](https://t.me/Bae_wafaaa)""",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("🍥 Contact 🍥 ", url=f"https://t.me/Bae_wafaaa")
+                                InlineKeyboardButton(" ᗪᥙɗᥙ ᥫ᭡ ", url=f"https://t.me/Bae_wafaaa")
                             ]
                         ]
                     ),
@@ -30,14 +34,22 @@ async def maintainers(b,m):
                     disable_web_page_preview=True)
             
          
-@StreamBot.on_message(filters.regex("follow❤️"))
+@StreamBot.on_message(filters.regex("⚡️𝙰к-ιмαχ⚡️"))
 async def follow_user(b,m):
     try:
        await b.send_message(chat_id=m.chat.id,text="Radhe Radhe ❤️",quote=True)
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="<B>Here's [⚡️AK IMAX HUB⚡️](https://t.me/akimaxmovies)</B>",
+                    text="""<B>
+                    ⍟ Hello there AK Fam, ⍟
+                    
+                    We are Happy to see you here.
+
+                    🎬 Cᴏᴍᴘʟᴇᴛᴇ Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛɪɴɢ Gʀᴏᴜᴘwho Provide all kind of content to Members with no cost. 🥂
+                    🚦 Aʟʟ Lᴀɴɢᴜᴀɢᴇs Mᴏᴠɪᴇs & Sᴇʀɪᴇs.
+                    🗣️ If You want to, Then Join given groups/channels and Get what you all dream of in Your Life. ✌🏻
+                     ~ Regards [тєαм⚡️αк-ιмαχ⚡️](https://t.me/akimaxmovies)</B>""",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
@@ -63,7 +75,7 @@ async def start(bot, update):
     
 @StreamBot.on_message(filters.command("list"))
 async def list(l, m):
-    LIST_MSG = "Hi! {} Here is a list of all my commands \n \n 1 . `start⚡️` \n 2. `help📚` \n 3. `login🔑` \n 4.`follow❤️` \n 5. `ping📡` \n 6. `status📊` \n 7. `DC` this tells your telegram dc \n 8. `maintainers😎` "
+    LIST_MSG = "Hi! {} Here is a list of all my commands \n \n 1 . `start⚡️` \n 2. `help📚` \n 3. `login🔑` \n 4.`⚡️𝙰к-ιмαχ⚡️` \n 5. `ping📡` \n 6. `status📊` \n 7. `DC` this tells your telegram dc \n 8. `Developer🍁` "
     await l.send_message(chat_id = m.chat.id,
         text = LIST_MSG.format(m.from_user.mention(style="md"))
         
