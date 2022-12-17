@@ -19,9 +19,9 @@ async def maintainers(b,m):
                     chat_id=m.chat.id,
                     text="""Welcome !!.
                     
-                    IF you might had difficulty , with links before , we are here to solve it :-) .
+IF you might had difficulty , with links before , we are here to solve it :-) .
                     
-                    For further information and guidance contact my [Developer](https://t.me/Bae_wafaaa)""",
+For further information and guidance contact my [Developer](https://t.me/Bae_wafaaa)""",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
