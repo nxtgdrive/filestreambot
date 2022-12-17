@@ -17,7 +17,7 @@ if MY_PASS:
             buttonz=ReplyKeyboardMarkup(
             [
                 ["start⚡️","help📚","login🔑","DC"],
-                ["follow❤️","ping📡","status📊","maintainers😎"]
+                ["⚡️𝙰к-ιмαχ⚡️","ping📡","status📊","Developer🍁"]
                         
             ],
             resize_keyboard=True
@@ -26,7 +26,7 @@ else:
             buttonz=ReplyKeyboardMarkup(
             [
                 ["start⚡️","help📚","DC"],
-                ["follow❤️","ping📡","status📊","maintainers😎"]
+                ["⚡️𝙰к-ιмαχ⚡️","ping📡","status📊","Developer🍁"]
                         
             ],
             resize_keyboard=True
@@ -127,10 +127,12 @@ async def help_handler(bot, message):
  [⚡️AK-IMAX | FILE TO LINK BOT ⚡️](https://t.me/Akimax_file_to_link_bot)
 ╚━━━━━━━━━━━━━━━━╝\n
 ✨ HELP MENU ✨
+
  ★ 🤖 SEND ME ANY FILE OR VIDEO I WILL GIVE YOU STREAMABLE LINK AND DOWNLOAD LINK.
  ★ 🤖 SEND /list TO KNOW ALL COMMANDS
 
 📝 IMPORTANT NOTE 📝
+
 ★ I also support Channels, add me to you Channel and send any media files and see miracle✨.
 ★ If the bot dosen't respond to telegram files you forward, first check /start and confirm bot is alive. .
 \n
