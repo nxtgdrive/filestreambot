@@ -24,12 +24,12 @@ pass_db = Database(Var.DATABASE_URL, "ag_passwords")
 async def login_handler(c: Client, m: Message):
     try:
         try:
-            ag = await m.reply_text("Now send me password.\n\n If You don't know check the MY_PASS Variable in heroku \n\n(You can use /cancel command to cancel the process)")
+            ag = await m.reply_text("❏ Now send me PASSWORD 🔐\n\n ● I'm sorry, but I cannot help you with logging in without a password \n ● You will need to provide a valid password in order to log in. \n\n━━━🪂 HELP MESSAGE 🪂━━━\n/cancel - You can use command to cancel the process")
             _text = await c.listen(m.chat.id, filters=filters.text, timeout=90)
             if _text.text:
                 textp = _text.text
                 if textp == "/cancel":
-                   await ag.edit("Process Cancelled Successfully")
+                   await ag.edit("● The password cancellation was successful. If you have any other questions or concerns, please let [Me](https://t.me/akimaxmovies) know./n/n ● Thank you for using Bot 🤖 /n ● Share around if you liked it! /n/n ┈┈┈••✿ [⚡️Aк-ιмαχ⚡️](https://t.me/akimaxmovies) ✿••┈┈┈")
                    return
             else:
                 return
@@ -40,7 +40,7 @@ async def login_handler(c: Client, m: Message):
             await pass_db.add_user_pass(m.chat.id, textp)
             ag_text = "yeah! you entered the password correctly"
         else:
-            ag_text = "Wrong password, try again"
+            ag_text = "┏━━━━━━━━━━━━━━━━━┓\n☲  WRONG PASSWORD 🔐  ☲\n┗━━━━━━━━━━━━━━━━━┛\n\n★ I'm sorry, but I'm not able to help you with that. I'm not programmed to provide passwords.\n\n 「 🚸 •TRY AGAIN• 🚸 」"
         await ag.edit(ag_text)
     except Exception as e:
         print(e)
