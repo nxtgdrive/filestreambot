@@ -17,7 +17,7 @@ if MY_PASS:
             buttonz=ReplyKeyboardMarkup(
             [
                 ["start⚡️","help📚","login🔑","DC"],
-                ["⚡️𝙰к-ιмαχ⚡️","ping📡","status📊","Developer🍁"]
+                ["𝙰к-ιмαχ","ping📡","status📊","Dev🍁"]
                         
             ],
             resize_keyboard=True
@@ -26,7 +26,7 @@ else:
             buttonz=ReplyKeyboardMarkup(
             [
                 ["start⚡️","help📚","DC"],
-                ["⚡️𝙰к-ιмαχ⚡️","ping📡","status📊","Developer🍁"]
+                ["𝙰к-ιмαχ","ping📡","status📊","Dev🍁"]
                         
             ],
             resize_keyboard=True
@@ -40,7 +40,7 @@ async def start(b, m):
         await db.add_user(m.from_user.id)
         await b.send_message(
             Var.BIN_CHANNEL,
-            f"**Nᴇᴡ Usᴇʀ Jᴏɪɴᴇᴅ:** \n\n__Mʏ Nᴇᴡ Fʀɪᴇɴᴅ__ [{m.from_user.first_name}](tg://user?id={m.from_user.id}) __Sᴛᴀʀᴛᴇᴅ Yᴏᴜʀ Bᴏᴛ !!__"
+            f"**Nᴇᴡ Usᴇʀ Jᴏɪɴᴇᴅ:** \n\n [{m.from_user.first_name}](tg://user?id={m.from_user.id}) __Sᴛᴀʀᴛᴇᴅ Yᴏᴜʀ Bᴏᴛ !!__"
         )
     if Var.UPDATES_CHANNEL != "None":
         try:
@@ -123,21 +123,22 @@ async def help_handler(bot, message):
             return
     await message.reply_text(
         text= """<b>
-╔━━━━━━━━━━━━━━━━╗
+╔━━━━━━━━━━━━━━━━━━━━╗
  [⚡️AK-IMAX | FILE TO LINK BOT ⚡️](https://t.me/Akimax_file_to_link_bot)
-╚━━━━━━━━━━━━━━━━╝\n
-✨ HELP MENU ✨
+╚━━━━━━━━━━━━━━━━━━━━╝\n
+━━━━━✨ HELP MENU ✨━━━━━
 
  ★ 🤖 SEND ME ANY FILE OR VIDEO I WILL GIVE YOU STREAMABLE LINK AND DOWNLOAD LINK.
  ★ 🤖 SEND /list TO KNOW ALL COMMANDS
 
-📝 IMPORTANT NOTE 📝
+━━━━📝 IMPORTANT NOTE 📝━━━━
 
 ★ I also support Channels, add me to you Channel and send any media files and see miracle✨.
-★ If the bot dosen't respond to telegram files you forward, first check /start and confirm bot is alive. .
+★ /start - Check the state of the bot (on/dead)
+★ /list - To know all commands
+★ /help - How to use Bot
 \n
-「 🚸 [⚡️Ak-imax⚡️ ](https://t.me/akimaxmovies) 🚸 」
-━━━━━━━━━━━━━━━━━""",
+〰️〰️「 🚸 [⚡️Ak-imax⚡️ ](https://t.me/akimaxmovies) 🚸 」〰️〰️""",
         
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
