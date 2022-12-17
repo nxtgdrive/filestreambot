@@ -42,14 +42,14 @@ async def follow_user(b,m):
                 await b.send_message(
                     chat_id=m.chat.id,
                     text="""<B>
-                    ⍟ Hello there AK Fam, ⍟
+⍟ Hello there AK Fam, ⍟
                     
-                    We are Happy to see you here.
+We are Happy to see you here.
 
-                    🎬 Cᴏᴍᴘʟᴇᴛᴇ Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛɪɴɢ Gʀᴏᴜᴘwho Provide all kind of content to Members with no cost. 🥂
-                    🚦 Aʟʟ Lᴀɴɢᴜᴀɢᴇs Mᴏᴠɪᴇs & Sᴇʀɪᴇs.
-                    🗣️ If You want to, Then Join given groups/channels and Get what you all dream of in Your Life. ✌🏻
-                     ~ Regards [тєαм⚡️αк-ιмαχ⚡️](https://t.me/akimaxmovies)</B>""",
+🎬 Cᴏᴍᴘʟᴇᴛᴇ Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛɪɴɢ Gʀᴏᴜᴘwho Provide all kind of content to Members with no cost. 🥂
+🚦 Aʟʟ Lᴀɴɢᴜᴀɢᴇs Mᴏᴠɪᴇs & Sᴇʀɪᴇs.
+🗣️ If You want to, Then Join given groups/channels and Get what you all dream of in Your Life. ✌🏻
+~ Regards [тєαм⚡️αк-ιмαχ⚡️](https://t.me/akimaxmovies)</B>""",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
