@@ -38,7 +38,7 @@ async def login_handler(c: Client, m: Message):
             return
         if textp == MY_PASS:
             await pass_db.add_user_pass(m.chat.id, textp)
-            ag_text = "yeah! you entered the password correctly"
+            ag_text = "┏━━━━━━━━━━━━━━┓\n☲   🔆 ACTIVATED 🔆   ☲\n┗━━━━━━━━━━━━━━┛\n\n★ yeah! you entered the password correctly \n\n● Nice work! I'm impressed. What can I do for you? \n\n┈┈┈••✿ [⚡️Aк-ιмαχ⚡️](https://t.me/akimaxmovies) ✿••┈┈┈"
         else:
             ag_text = "┏━━━━━━━━━━━━━━━━━┓\n☲  WRONG PASSWORD 🔐  ☲\n┗━━━━━━━━━━━━━━━━━┛\n\n★ I'm sorry, but I'm not able to help you with that. I'm not programmed to provide passwords.\n\n 「 🚸 •TRY AGAIN• 🚸 」"
         await ag.edit(ag_text)
