@@ -107,9 +107,9 @@ async def stats(bot, update):
              f'<b>├  🔼 Total Upload : </b> {sent}\n' \
              f'<b>├  🔽 Total Download : </b> {recv}\n' \
              f'<b>│</b>\n' \
-             f'<b>├  🗄 CPU :</b> {cpuUsage}% ' \
-             f'<b>├  🎮 RAM :</b> {memory}% ' \
-             f'<b>├  💽 DISK :</b> {disk}%' \
+             f'<b>├  🗄 CPU :</b> {cpuUsage}%\n' \
+             f'<b>├  🎮 RAM :</b> {memory}%\n' \
+             f'<b>├  💽 DISK :</b> {disk}%\n' \
              f'<b>│</b>\n' \
              f'<b>╰──「 🚸 [⚡️Ak-imax⚡️ ](https://t.me/akimaxmovies) 🚸 」'
   await update.reply_text(botstats)
