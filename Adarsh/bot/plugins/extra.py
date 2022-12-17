@@ -76,7 +76,7 @@ async def ping(b, m):
     ag = await m.reply_text("....")
     end_t = time.time()
     time_taken_s = (end_t - start_t) * 1000
-    await ag.edit(f"⚡️Pong!!\n{time_taken_s:.3f} ms\n\n\✪ [⚡️AK Imax⚡️](https://t.me/akimaxmovies) ✪\n...🧡ʝσιи ꨄ ѕнαяє ꨄ ѕυρρσят 💚...\n\n━━━━━━━━━━━━━━━━━━━━━━━━")
+    await ag.edit(f"⚡️Pong!!!\n{time_taken_s:.3f} ms")
     
     
     
@@ -93,13 +93,23 @@ async def stats(bot, update):
   cpuUsage = psutil.cpu_percent(interval=0.5)
   memory = psutil.virtual_memory().percent
   disk = psutil.disk_usage('/').percent
-  botstats = f'<b>Bot Uptime:</b> {currentTime}\n' \
-            f'<b>Total disk space:</b> {total}\n' \
-            f'<b>Used:</b> {used}  ' \
-            f'<b>Free:</b> {free}\n\n' \
-            f'📊Data Usage📊\n<b>Upload:</b> {sent}\n' \
-            f'<b>Down:</b> {recv}\n\n' \
-            f'<b>CPU:</b> {cpuUsage}% ' \
-            f'<b>RAM:</b> {memory}% ' \
-            f'<b>Disk:</b> {disk}%'
+  botstats = f'<b>╭──「⭕️ BOT STATISTICS ⭕️」</b>\n' \
+             f'<b>│</b>\n' \
+             f'<b>├ ⚡️ AK-IMAX | FILE TO LINK BOT ⚡️</b>\n' \
+             f'<b>├  🆚 Version : 1.0</b>\n' \
+             f'<b>├  ⌚️Bot Uptime :</b> {currentTime}\n' \
+             f'<b>│</b>\n' \
+             f'<b>Bot Uptime :</b>\n' \
+             f'<b>├  🗃 Total Disk Space :</b> {total}\n' \
+             f'<b>├  📀 Total Used Space :</b> {used}\n' \
+             f'<b>│</b>\n' \
+             f'<b>├ 📊Data Usage📊</b>\n' \
+             f'<b>├  🔼 Total Upload : </b> {sent}\n' \
+             f'<b>├  🔽 Total Download : </b> {recv}\n' \
+             f'<b>│</b>\n' \
+             f'<b>├  🗄 CPU :</b> {cpuUsage}% ' \
+             f'<b>├  🎮 RAM :</b> {memory}% ' \
+             f'<b>├  💽 DISK : </b> {disk}%' \
+             f'<b>│</b>\n' \
+             f'<b>╰──「 🚸 [⚡️Ak-imax⚡️ ](https://t.me/akimaxmovies) 🚸 」'
   await update.reply_text(botstats)
