@@ -29,7 +29,7 @@ async def login_handler(c: Client, m: Message):
             if _text.text:
                 textp = _text.text
                 if textp == "/cancel":
-                   await ag.edit("┏━━━━━━━━━━━━━━━━━┓\n☲    ❌ CANCELLED ❌    ☲\n┗━━━━━━━━━━━━━━━━━┛\n\n● The password cancellation was successful. If you have any other questions or concerns, please let [Me](https://t.me/Bae_wafaaa) know.\n\n ● Thank you for using Bot 🤖 \n ● Share around if you liked it! \n\n ┈┈┈••✿ [⚡️Aк-ιмαχ⚡️](https://t.me/akimaxmovies) ✿••┈┈┈")
+                   await ag.edit("┏━━━━━━━━━━━━━━━━━┓\n☲    ❌ CANCELLED ❌    ☲\n┗━━━━━━━━━━━━━━━━━┛\n\n● The password cancellation was successful. If you have any other questions or concerns, please let Me know.\n\n ● Thank you for using Bot 🤖 \n ● Share around if you liked it! \n\n ┈┈┈••✿ [⚡️Aк-ιмαχ⚡️](https://t.me/akimaxmovies) ✿••┈┈┈")
                    return
             else:
                 return
