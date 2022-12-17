@@ -77,7 +77,7 @@ async def start(b, m):
     await StreamBot.send_photo(
         chat_id=m.chat.id,
         photo ="https://te.legra.ph/file/6750eaff7ac29676dbb31.jpg",
-        caption =f'Hi {m.from_user.mention(style="md")}👋 ,\nI am Telegram File To Link Bot with Channel support.\nTʜɪs Pᴇʀᴍᴇᴀɴᴛ Lɪɴᴋ Wɪᴛʜ Fᴀsᴛᴇsᴛ Sᴘᴇᴇᴅ\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★🔸 𝗪𝗔𝗥𝗡𝗜𝗡𝗚 🚸\n┣★ 🔞 Pʀᴏɴ Cᴏɴᴛᴇɴᴛ Not Allowed.\n┗━━━━━━━━━━━━━━━━━┛\n\\nSend me any file and get a direct download link and streamable link.!',
+        caption =f'Hi {m.from_user.mention(style="md")}👋 ,\nI am Telegram File To Link Bot with Channel support.\nTʜɪs Pᴇʀᴍᴇᴀɴᴛ Lɪɴᴋ Wɪᴛʜ Fᴀsᴛᴇsᴛ Sᴘᴇᴇᴅ\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★🔸 𝗪𝗔𝗥𝗡𝗜𝗡𝗚 🚸\n┣★ 🔞 Pʀᴏɴ Cᴏɴᴛᴇɴᴛ Not Allowed.\n┗━━━━━━━━━━━━━━━━━┛\n\nSend me any file and get a direct download link and streamable link.',
         reply_markup=buttonz)
 
 
