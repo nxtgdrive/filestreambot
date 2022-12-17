@@ -10,7 +10,7 @@ from Adarsh import StartTime
 START_TEXT = """ Your Telegram DC Is : `{}`  """
 
 
-@StreamBot.on_message(filters.regex("Developer🍁"))
+@StreamBot.on_message(filters.regex("Dev🍁"))
 async def maintainers(b,m):
     try:
        await b.send_message(chat_id=m.chat.id,text="Radhe Radhe ❤️",quote=True)
@@ -34,7 +34,7 @@ For further information and guidance contact my [Developer](https://t.me/Bae_waf
                     disable_web_page_preview=True)
             
          
-@StreamBot.on_message(filters.regex("⚡️𝙰к-ιмαχ⚡️"))
+@StreamBot.on_message(filters.regex("𝙰к-ιмαχ"))
 async def follow_user(b,m):
     try:
        await b.send_message(chat_id=m.chat.id,text="Radhe Radhe ❤️",quote=True)
@@ -75,7 +75,7 @@ async def start(bot, update):
     
 @StreamBot.on_message(filters.command("list"))
 async def list(l, m):
-    LIST_MSG = "Hi! {} Here is a list of all my commands \n \n 1 . `start⚡️` \n 2. `help📚` \n 3. `login🔑` \n 4.`⚡️𝙰к-ιмαχ⚡️` \n 5. `ping📡` \n 6. `status📊` \n 7. `DC` this tells your telegram dc \n 8. `Developer🍁` "
+    LIST_MSG = "Hi! {} Here is a list of all my commands \n \n 1 . `start⚡️` \n 2. `help📚` \n 3. `login🔑` \n 4.`𝙰к-ιмαχ` \n 5. `ping📡` \n 6. `status📊` \n 7. `DC` (this tells your telegram dc) \n 8. `Dev🍁` "
     await l.send_message(chat_id = m.chat.id,
         text = LIST_MSG.format(m.from_user.mention(style="md"))
         
@@ -88,7 +88,7 @@ async def ping(b, m):
     ag = await m.reply_text("....")
     end_t = time.time()
     time_taken_s = (end_t - start_t) * 1000
-    await ag.edit(f"⚡️Pong!!!\n{time_taken_s:.3f} ms")
+    await ag.edit(f"⚡️ Pong!!!\n{time_taken_s:.3f} ms")
     
     
     
