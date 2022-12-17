@@ -128,15 +128,14 @@ async def help_handler(bot, message):
 ╚━━━━━━━━━━━━━━━━━━━━╝\n
 ━━━━━✨ HELP MENU ✨━━━━━
 
- ★ 🤖 SEND ME ANY FILE OR VIDEO I WILL GIVE YOU STREAMABLE LINK AND DOWNLOAD LINK.
- ★ 🤖 SEND /list TO KNOW ALL COMMANDS
+➤  🤖 SEND ME ANY FILE OR VIDEO I WILL GIVE YOU STREAMABLE LINK AND DOWNLOAD LINK.
 
 ━━━━📝 IMPORTANT NOTE 📝━━━━
 
 ★ I also support Channels, add me to you Channel and send any media files and see miracle✨.
-★ /start - Check the state of the bot (on/dead)
-★ /list - To know all commands
-★ /help - How to use Bot
+★ /start - Check the state of the bot.
+★ /list - To know all commands.
+★ /help - How to use Bot.
 \n
 〰️〰️「 🚸 [⚡️Ak-imax⚡️ ](https://t.me/akimaxmovies) 🚸 」〰️〰️""",
         
