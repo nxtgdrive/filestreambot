@@ -99,7 +99,6 @@ async def stats(bot, update):
              f'<b>├  🆚 Version : 1.0</b>\n' \
              f'<b>├  ⌚️Bot Uptime :</b> {currentTime}\n' \
              f'<b>│</b>\n' \
-             f'<b>Bot Uptime :</b>\n' \
              f'<b>├  🗃 Total Disk Space :</b> {total}\n' \
              f'<b>├  📀 Total Used Space :</b> {used}\n' \
              f'<b>│</b>\n' \
