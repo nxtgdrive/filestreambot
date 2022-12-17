@@ -77,7 +77,7 @@ async def start(b, m):
     await StreamBot.send_photo(
         chat_id=m.chat.id,
         photo ="https://te.legra.ph/file/6750eaff7ac29676dbb31.jpg",
-        caption =f'Hi {m.from_user.mention(style="md")}👋 ,\nI am Telegram File To Link Bot with Channel support.\nTʜɪs Pᴇʀᴍᴇᴀɴᴛ Lɪɴᴋ Wɪᴛʜ Fᴀsᴛᴇsᴛ Sᴘᴇᴇᴅ\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★🔸 𝗪𝗔𝗥𝗡𝗜𝗡𝗚 🚸\n┣★ 🔞 Pʀᴏɴ Cᴏɴᴛᴇɴᴛ Not Allowed.\n┗━━━━━━━━━━━━━━━━━┛\n\nSend me any file and get a direct download link and streamable link.\n\n╔━━━━━━━━━━━━━━━━╗\n✪ [⚡️ AK Imax ⚡️](https://t.me/akimaxmovies)\n╚━━━━━━━━━━━━━━━━╝',
+        caption =f'Hi {m.from_user.mention(style="md")}👋 ,\nI am Telegram File To Link Bot with Channel support.\nTʜɪs Pᴇʀᴍᴇᴀɴᴛ Lɪɴᴋ Wɪᴛʜ Fᴀsᴛᴇsᴛ Sᴘᴇᴇᴅ\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★🔸 𝗪𝗔𝗥𝗡𝗜𝗡𝗚 🚸\n┣★ 🔞 Pʀᴏɴ Cᴏɴᴛᴇɴᴛ Not Allowed.\n┗━━━━━━━━━━━━━━━━━┛\n\nSend me any file and get a direct download link and streamable link.\n\n╔━━━━━━━━━━━━━━━━╗\n✪ [⚡️ AK Imax ⚡️](https://t.me/akimaxmovies)✪\n╚━━━━━━━━━━━━━━━━╝',
         reply_markup=buttonz)
 
 
@@ -87,7 +87,7 @@ async def help_handler(bot, message):
         await db.add_user(message.from_user.id)
         await bot.send_message(
             Var.BIN_CHANNEL,
-            f"**Nᴇᴡ Usᴇʀ Jᴏɪɴᴇᴅ **\n\n__Mʏ Nᴇᴡ Fʀɪᴇɴᴅ__ [{message.from_user.first_name}](tg://user?id={message.from_user.id}) __Started Your Bot !!__"
+            f"**Nᴇᴡ Usᴇʀ Jᴏɪɴᴇᴅ **\n\n[{message.from_user.first_name}](tg://user?id={message.from_user.id}) __Started Your Bot !!__"
         )
     if Var.UPDATES_CHANNEL != "None":
         try:
@@ -123,19 +123,19 @@ async def help_handler(bot, message):
             return
     await message.reply_text(
         text= """<b>
-        ╭──「✨ HELP MENU ✨」</b>\n
-        │</b>\n
-        │──「 👋 HI 」</b>\n
-        │──「⚡️ AK-IMAX | FILE TO LINK BOT ⚡️」</b>\n
-        │</b>\n
-        │ ★ Send me any file or video i will give you streamable link and download link. </b>\n
-        │ ★ 🤖 SEND /list TO KNOW ALL COMMANDS </b>\n
-        │</b>\n
-        │──「📝 IMPORTANT NOTE 📝」</b>\n
-        │ ★ I also support Channels, add me to you Channel and send any media files and see miracle✨.</b>\n
-        │ ★ If the bot dosen't respond to telegram files you forward, first check /start and confirm bot is alive. .</b>\n
-        │</b>\n
-        ╰──「 🚸 [⚡️Ak-imax⚡️ ](https://t.me/akimaxmovies) 🚸 """,
+「✨ HELP MENU ✨」\n
+\n
+「 👋 HI 」\n
+「⚡️ AK-IMAX | FILE TO LINK BOT ⚡️」\n
+\n
+ ★ Send me any file or video i will give you streamable link and download link.\n
+ ★ 🤖 SEND /list TO KNOW ALL COMMANDS\n
+\n
+「📝 IMPORTANT NOTE 📝」\n
+★ I also support Channels, add me to you Channel and send any media files and see miracle✨.\n
+★ If the bot dosen't respond to telegram files you forward, first check /start and confirm bot is alive. .\n
+\n
+「 🚸 [⚡️Ak-imax⚡️ ](https://t.me/akimaxmovies) 🚸 」""",
         
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
